@@ -1,0 +1,271 @@
+:root {
+    --primary-color: orange;
+    --link-color: black;
+    --background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body nav {
+    background-color: lightgrey;
+}
+
+body {
+    font-family: 'Poppins'  , sans-serif;
+    background-color: var(--background-color);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAV */
+h1 {
+    font-size: 50px;
+}
+a {
+    font-size: 12px;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+nav {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid grey;
+
+    padding: 20px 50px;
+    height: 80px;
+}
+
+nav .left a {
+    color: var(--link-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav .right a {
+    color: var(--link-color);
+    margin-left: 10px;
+    background-color: var(--primary-color);
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+
+/* hero text */
+section .hero .hero-text h2 {
+    font-size: 30px;
+}
+span {
+    color: orange;
+}
+
+.hero .hero-text {
+    flex: 5;
+}
+
+.hero .hero-text h2 {
+    font-size: 45px;
+}
+
+/* hero image */
+.hero .hero-image{
+    flex: 2;
+    display: flex;
+    justify-content: right;
+}
+
+.hero .hero-image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* SKILLS */
+.skills {
+    padding: 50px;
+    background-color: lightgrey;
+    color: var(--link-color);
+    text-align: left;
+    box-sizing: border-box;
+    border-top: 1.5px solid grey;
+    border-bottom: 1.5px solid grey;
+    margin-bottom: 100px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 1.5px solid orange;
+    margin-bottom: 20px;
+}
+
+.skills .text {
+    color: var(--link-color);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+/* Interest */
+.interest {
+    padding: 50px;
+    background-color: lightgrey;
+    color: var(--link-color);
+    text-align: left;
+    box-sizing: border-box;
+    border-top: 1.5px solid grey;
+    border-bottom: 1.5px solid grey;
+    margin-bottom: 100px;
+}
+
+.interest h2 {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 1.5px solid orange;
+    margin-bottom: 20px;
+}
+
+.interest .text {
+    color: var(--link-color);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+/* hobbies */
+.hobbies {
+    padding: 50px;
+    background-color: lightgrey;
+    color: var(--link-color);
+    text-align: left;
+    box-sizing: border-box;
+    border-top: 1.5px solid grey;
+    border-bottom: 1.5px solid grey;
+    margin-bottom: 100px;
+}
+
+.hobbies h2 {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 1.5px solid orange;
+    margin-bottom: 20px;
+}
+
+.hobbies .text {
+    color: var(--link-color);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* ABOUT */
+.about {
+    padding: 50px 50px;
+    padding-bottom: 50px;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    border-top: 1.5px solid grey;
+    border-bottom: 1.5px solid grey;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about .group .details h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    border-bottom: 1.5px solid orange;
+}
+
+.about .group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about .group .details {
+    text-align: center;
+    flex: 2;
+}
+
+.about .group .details img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    border-radius: 15%;
+}
+
+.about .group .details p {
+    font-weight: 600;
+}
+.about .group .details p:last-child {
+    font-weight: 200;
+}
+.about .group .text {
+    flex: 8;
+}
+
+.about .group .text {
+    text-align: left;
+}
+
+
+
+/* CONTACT */
+.contacts {
+    text-align: center;
+    padding: 50px 50px;
+    padding-bottom: 50px;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    border-top: 1.5px solid grey;
+    border-bottom: 1.5px solid grey;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contacts h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    border-bottom: 1.5px solid orange;
+}
+
+
+.contacts .logos {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts .logos span {
+    display: flex;
+    color: orangered;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts .logos .logo1 img {
+    width: 10%;
+    height: 60%;
+}
+
+.contacts .logos .logo2 img {
+    width: 10%;
+    height: 60%;
+}
