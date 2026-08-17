@@ -253,11 +253,18 @@ span {
     justify-content: center;
 }
 
-.contacts .logos span {
+.contacts .logos span1 {
     display: flex;
     color: orangered;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+
+.contacts .logos span2 {
+    display: flex;
+    color: orangered;
+    justify-content: center;
+    text-align: center;
 }
 
 .contacts .logos .logo1 img {
